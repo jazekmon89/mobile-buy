@@ -1,0 +1,80 @@
+/**
+
+ * All of the CSS for your public-facing functionality should be
+
+ * included in this file.
+
+ */
+
+.single-product-title{
+    padding: 1.5rem 0;
+}
+
+.mobile_add_to_cart-image{
+    margin: 1.5rem 0;
+}
+
+.single-product-page-header{
+    background-color: #ffffff !important;
+}
+
+
+ .variations .button-options {
+
+ 	width: calc(33.333% - .5rem);
+
+    padding-top: 1rem;
+
+    padding-bottom: 1rem;
+
+    margin: .25rem;
+
+    text-align: center;
+
+    border: 1px solid #e6e6e6;
+
+    border-radius: .375rem;
+
+    -webkit-transition: background-color .15s ease-out,border-color .15s ease-out;
+
+    transition: background-color .15s ease-out,border-color .15s ease-out;
+
+ }
+
+ .variations.button-options .option-name,
+
+ .variations .button-options .option-price {
+
+ 	line-height: 2em;
+
+ }
+
+ .variations .button-options .option-name {
+
+ 	padding-top:5px;
+
+ }
+
+ .variations .button-options .option-price {
+
+ 	padding-bottom:5px;
+
+ }
+
+ .variations .button-options.selected {
+
+  	border-color: #4A4C64;
+
+  	background: #989bb3;
+
+ }
+
+ .variations_form.custom-page .single_add_to_cart_button {
+
+ 	width: 100%;
+
+ 	border-radius: .375rem;
+
+ 	background: #494c64;
+
+ }

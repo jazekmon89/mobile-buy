@@ -1,0 +1,81 @@
+/**
+
+ * All of the CSS for your public-facing functionality should be
+
+ * included in this file.
+
+ */
+
+
+@media all and (max-width: 768px){
+
+
+
+
+ .mobile-buy {
+
+ 	position: fixed;
+
+ 	bottom: 0px;
+
+ 	width: 100%;
+
+ 	z-index: 99999;
+
+ 	background: #fff;
+
+ 	border-top: 1px solid rgba(0,0,0,.15);
+
+ 	padding: 1.5rem 5%;
+
+ 	display: flex;
+
+ 	justify-content: space-between;
+
+ }
+
+
+
+ .mobile-buy .button {
+
+ 	text-align: center;
+
+ 	background: #494c64;
+
+ 	border-radius: .375rem;
+
+ 	color: #fff;
+
+ 	width: 8rem;
+
+ }
+
+ .mobile-buy .description .up {
+
+ 	line-height: 1.5;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+ }
+
+ .mobile-buy .description .down {
+
+ 	font-size: .8rem;
+
+ }
+
+ .single-add-to-cart {
+
+ 	display: none !important;
+
+ }
+
+.single-product-page-header {
+	padding: 1.5rem 0 !important;
+}
+
+.text-m{
+	display: none;
+}
+
+}
